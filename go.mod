@@ -1,4 +1,4 @@
-module cdnChecker
+module cwChecker
 
 go 1.22.1
 
