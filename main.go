@@ -270,7 +270,7 @@ func main() {
 	o := flag.String("o", "no_cdn_domains"+nowTime+".txt", "output domains that are not using cdn to file")
 	oi := flag.String("oi", "no_cdn_ips"+nowTime+".txt", "output ips that are not using cdn to file")
 	oc := flag.String("oc", "use_cdn_domains"+nowTime+".txt", "output domains that are using cdn to file")
-	od := flag.String("od", "domain_info"+nowTime+".txt", "output domain info(domain:ip) to file")
+	od := flag.String("od", "domain_info"+nowTime+".txt", "output domain info(domain ip) to file")
 	flag.Parse()
 
 	noCdnDomainsFileName := *o
