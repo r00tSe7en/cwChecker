@@ -64,14 +64,14 @@ $ ./cwChecker -df domains.txt -cf cdn_cname -r resolvers.txt -oc use_cdn_subdoma
 
 但是直接通过dns服务器查询会增加网络开销影响速度，因此先通过以下方法完成初步筛选：
 
-1. 通过 "github.com/projectdiscovery/dnsx" 自带的checkCdn方法
+1.通过 "github.com/projectdiscovery/dnsx" 自带的checkCdn方法
 
 ```
 通过ip范围判断，主要为国外cdn厂商，对国内cdn识别效果不理想
 此方法为调用nslookup获取ip，实测不如（2）的方式准确
 ```
 
-2. **[+]增加**通过"github.com/projectdiscovery/cdncheck" 自带的CheckCDN、CheckWAF方法
+2.**[+]增加**通过"github.com/projectdiscovery/cdncheck" 自带的CheckCDN、CheckWAF方法
 ```
 再次通过ip范围判断，主要为国外cdn&waf厂商
 ```
