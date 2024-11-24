@@ -3,6 +3,9 @@
 cdn & waf过滤
 
 [+] 修改自 https://github.com/alwaystest18/cdnChecker （修改判断逻辑，添加判断条件）
+```
+https://github.com/alwaystest18/cdnChecker/releases/tag/v1.0.0
+```
 
 ## 背景
 
